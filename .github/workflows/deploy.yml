@@ -22,6 +22,10 @@ jobs:
           passphrase: ${{ secrets.DO_SSH_PASSPHRASE }}
           script: |
             set -e
+            if [ ! -d /var/www/starlink-search/.git ]; then
+              rm -rf /var/www/starlink-search
+              git clone https://github.com/indahazzard/starlink-check.git /var/www/starlink-search
+            fi
             cd /var/www/starlink-search
             git pull origin main
             npm ci
