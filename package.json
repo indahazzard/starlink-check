@@ -1,1 +1,1 @@
-{"scripts":{"start":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","mgrs":"latest"},"devDependencies":{}}
+{"scripts":{"start":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"svelte":"latest","@sveltejs/vite-plugin-svelte":"latest","vite":"latest","mgrs":"latest"},"devDependencies":{}}
